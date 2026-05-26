@@ -1,0 +1,86 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+target/
+dist/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+.m2/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Frontend
+frontend/dist/
+frontend/node_modules/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# IDE specific
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+
+# AWS
+.aws/
+aws-credentials
+
+# Secrets
+secrets.json
+credentials.json
+.env.production
